@@ -1,6 +1,7 @@
 # kisan_mitra
 
-A new Flutter project.
+This is Machine Learning Based Flutter Application.
+It is predict the seed according to climate.
 
 ## Getting Started
 
