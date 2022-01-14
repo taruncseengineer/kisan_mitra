@@ -53,7 +53,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
     weatherList = [];
     try {
       Uri uri = Uri.parse(
-          "https://api.weatherbit.io/v2.0/current?lat=$lat&lon=$long&key=576ee60dfaf544efa6a4b713f11a8ef3");
+          "https://api.weatherbit.io/v2.0/current?lat=$lat&lon=$long&key=$value");
       var response = await http.get(uri);
       if (response.statusCode == 200) {
         var decodeData = json.decode(response.body);
